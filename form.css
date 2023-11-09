@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+
+}
+
+fieldset{
+	border-radius: 10;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+	
+}
+#formcol1 li {
+	list-style:none;
+	margin-top: 2%;
+	border-radius: 3%;
+	}
+
+	input[type=text] {
+		box-sizing: border-box;
+		width: 25%;
+		border: 1.5px solid dimgray;
+		border-radius: 6px;
+		padding: 6px;
+		
+	}
+
+label {
+	margin-right: .3em;
+	width: 6.2em; 
+	display: inline-block;
+	
+}
+.submit-button input {
+    font-size: 22px;
+	border-width: 10;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label,
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #BB3D2F !important;}
+#formcol1 input.reqfield {
+	background:#FF9;
+	}
+
+
+/* end of form css */
+	
